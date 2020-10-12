@@ -1,0 +1,17 @@
+.appoinment{
+    background-image: url(../../images/bg2.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center center;
+    position: relative;
+    height: 270px;
+}
+.appoinment::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-color: rgb(58, 66, 86,0.85);
+}
